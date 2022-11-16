@@ -4,7 +4,8 @@ const app = Vue.createApp({
             product: 'Socks',
             image: './assets/images/socks_green.jpg', 
             url: 'http://placekitten.com/200/300',
-            inStock: true,
+            inventory: 100,
+            onSale: false,
         }
     }
 })
